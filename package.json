@@ -1,5 +1,5 @@
 {
-  "name": "@vite-pwa/nuxt",
+  "name": "@mangadex-pub/vite-pwa-nuxt",
   "type": "module",
   "version": "0.0.5",
   "packageManager": "pnpm@7.26.1",
@@ -10,7 +10,7 @@
   "homepage": "https://github.com/vite-pwa/nuxt#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vite-pwa/nuxt.git"
+    "url": "https://github.com/mangadex-pub/vite-pwa-nuxt"
   },
   "bugs": "https://github.com/vite-pwa/nuxt/issues",
   "keywords": [
