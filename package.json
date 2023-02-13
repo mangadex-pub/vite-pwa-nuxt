@@ -1,7 +1,7 @@
 {
   "name": "@mangadex-pub/vite-pwa-nuxt",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "packageManager": "pnpm@7.26.1",
   "description": "Zero-config PWA for Nuxt 3",
   "author": "antfu <anthonyfu117@hotmail.com>",
@@ -42,7 +42,7 @@
     "dev:preview": "npm run dev:build && node playground/.output/server/index.mjs",
     "dev:preview:generate": "npm run dev:generate && npx serve playground/dist",
     "prepublishOnly": "npm run prepack",
-    "release": "bumpp && npm publish",
+    "release": "bumpp && npm publish --access=public",
     "lint": "eslint .",
     "lint-fix": "nr lint --fix"
   },
